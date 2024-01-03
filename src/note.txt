@@ -1,0 +1,8 @@
+THUNK
+-----------
+
+THUNK accepts an action type string and function that returns a promise, 
+and generate a Thunk that dispatches pending / fullfilled / rejected action
+types based on that promise
+
+Thunk is not a part of slice but it is a method in toolkit.
